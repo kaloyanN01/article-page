@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 100%;
+}
+body{
+  cursor: pointer;
+    background-image: url(content/1.png);
+
+}
+
+section{
+  min-height:100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+.container{
+  background-color: white;
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+  box-shadow: 0px 0px 61px 7px #5e849c40;
+  padding: 50px 20px;
+  border-radius: 20px;
+  text-align: center;
+}
+.header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header h1{
+  font-size: 40px;
+  font-weight: 900;
+  letter-spacing: -2px;
+  padding-bottom: 50px;
+  
+}
+.header h2{
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: -2px;
+  padding-bottom: 10px;
+}
+
+a {
+  color: black;
+  text-decoration: none; /* no underline */
+}
+/* mouse over link */
+a:hover {
+  color: black;
+}
+
+/* selected link */
+a:active {
+  color: black;
+}
+h6{
+  text-align: right;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}
+#planet{
+  width: 3%;
+  height: auto;
+}
+
+.list-group-item, .btn{
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: -2px;
+}
+#drink{
+  background-image: url(content/1.png);}
+
+@media only screen and (min-width: 900px){
+ .container{
+   max-width: 1160px;
+   padding: 70px;
+ }
+ .header{
+   flex-direction: row;
+   justify-content: space-between;
+
+}
+}
